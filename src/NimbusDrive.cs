@@ -1,10 +1,19 @@
-﻿namespace NimbusDrive
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace NimbusDrive
 {
-    public class NimbusDrive
+	public static class NimbusDrive
 	{
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+		[STAThread]
+		static void Main()
+		{
+			Application.EnableVisualStyles();
+			Application.SetCompatibleTextRenderingDefault(false);
+			Application.Run(new Login());
+		}
+	}
 }
