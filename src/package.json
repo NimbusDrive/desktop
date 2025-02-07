@@ -1,0 +1,23 @@
+{
+  "name": "nimbusdrive",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/NimbusDrive/desktop#readme",
+  "bugs": {
+    "url": "https://github.com/NimbusDrive/desktop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimbusDrive/desktop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^34.1.1"
+  }
+}
